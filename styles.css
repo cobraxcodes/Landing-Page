@@ -1,26 +1,20 @@
 *{
     margin: 0;
 }
+
+
 /** Header **/
 .headercontainer    {
 background-color: #1F2937;
 color: white;
 margin: 0 auto;
-display: flex;
-justify-content: center;
-text-align: center;
 font-family: roboto;
 width: 50%;
-height: 10vh;
-top: -1;
-
+height: 20vh;
 border: none;
-
-
-
 }
 
-#logo   {
-flex: 1;
-text-align: center;
+#navigationContainer {
+    justify-content: center;
+    display: inline;
 }
