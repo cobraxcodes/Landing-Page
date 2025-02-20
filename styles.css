@@ -3,18 +3,61 @@
 }
 
 
+
 /** Header **/
-.headercontainer    {
+.headerContainer    {
 background-color: #1F2937;
 color: white;
 margin: 0 auto;
 font-family: roboto;
-width: 50%;
-height: 20vh;
+width: 55%;
+height: 35vh;
 border: none;
 }
 
-#navigationContainer {
-    justify-content: center;
-    display: inline;
+.navigationContainer {
+ display: flex;
+ justify-content: space-around;
+
+}
+
+.logo   {
+    flex: 1;
+    text-align: center;
+}
+
+/** subheadContainer **/
+.subheadContainer{
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    justify-content: space-around;
+}
+.subItem{
+    align-self: center;
+    text-align: justify;
+    width: 35%;
+    gap: 2;
+}
+.awesome{
+    font-size: 48px;
+    font-weight: 900;
+}
+.signupBtn{
+ background-color: #3882F6;
+ color: white;
+ width: 25%;
+}
+
+.imgPlaceholder{
+    align-self: center;
+    border: solid;
+    background-color: gray;
+    color: white;
+    height: 15vh;
+    width: 30%;
+    text-align: center;
+}
+.placeholder{
+    margin-top: 4rem;
 }
