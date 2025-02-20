@@ -48,7 +48,6 @@ border: none;
  color: white;
  width: 25%;
 }
-
 .imgPlaceholder{
     align-self: center;
     border: solid;
@@ -60,4 +59,36 @@ border: none;
 }
 .placeholder{
     margin-top: 4rem;
+}
+
+/** Random Information **/
+.randomInfo{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.randomContainer{
+    display: flex;
+    width: 40%;
+    height: 20vh;
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.randomBox{
+   border: solid;
+   border-color: #3882F6;
+   height: 12vh;
+   width: 17%;
+   align-self: center;
+   margin: 0 auto;
+}
+.randomText{
+    display: flex;
+    height: 11vh;
+    width: 98.9%;
+    align-self: center;
+    margin: 0 auto;
+    
 }
