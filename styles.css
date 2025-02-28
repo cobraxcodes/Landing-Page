@@ -50,9 +50,7 @@ border: none;
 }
 .imgPlaceholder{
     align-self: center;
-    border: solid;
     background-color: gray;
-    color: white;
     height: 15vh;
     width: 30%;
     text-align: center;
