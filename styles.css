@@ -106,3 +106,15 @@ border: none;
 }
 
 /** Call To Action **/
+
+
+/** Footer **/
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    width: 55%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 10px;
+}
