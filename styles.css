@@ -92,3 +92,17 @@ border: none;
     margin: 0 auto;
     
 }
+
+/** Quote **/
+.quote{
+    background-color: #E5E7EB;
+    text-align: center;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937; 
+    width: 55%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/** Call To Action **/
