@@ -104,8 +104,23 @@ border: none;
 }
 
 /** Call To Action **/
+.callContainer{
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    margin: 0 auto;
+    width: 30%;
+    padding: 3rem;
+    border-radius: 30px;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.callBtn{
+    background-color: #3882F6;
+    color: white;
 
-
+}
 /** Footer **/
 .footer{
     background-color: #1F2937;
